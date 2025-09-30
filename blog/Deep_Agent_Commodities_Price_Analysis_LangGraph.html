@@ -296,7 +296,7 @@ graph TD
 
     <p>The workflow begins with the Planner Node, which analyzes the user's query and creates a comprehensive task plan. This node acts as the strategic brain of the system, determining which commodities need analysis and establishing the sequence of operations. The planner creates a detailed task list that includes data collection, statistical analysis, trend identification, forecasting, risk assessment, visualization, and reporting.</p>
 
-    <p>Following the planning phase, the Data Collector Node takes over and fetches commodity price data from the Federal Reserve Economic Data (FRED) API. This node implements sophisticated error handling to manage SSL certificate verification on macOS systems and includes fallback mechanisms using Yahoo Finance when primary data sources are unavailable. The data collector ensures data quality by removing outliers, handling missing values, and validating date ranges before passing the cleaned datasets to subsequent nodes.</p>
+    <p>Following the planning phase, the Data Collector Node takes over and fetches commodity price data from the Federal Reserve Economic Data (FRED) API. The data collector ensures data quality by removing outliers, handling missing values, and validating date ranges before passing the cleaned datasets to subsequent nodes.</p>
 
     <p>The Analyzer Node performs the heavy lifting of statistical computation, executing multiple types of analysis including descriptive statistics, trend detection using moving averages and linear regression, pattern recognition through seasonal decomposition, and correlation analysis across multiple commodities. This node generates the foundational insights that inform later forecasting and risk assessment stages.</p>
 
@@ -411,11 +411,6 @@ graph TD
     <p>Building this Deep Agent system provided invaluable insights into the practical implementation of autonomous AI systems for financial analysis. The project demonstrated that effective agent design requires careful consideration of state management, with each node reading from and writing to a shared state object that maintains consistency throughout the workflow. Error handling emerged as a critical concern, with each node implementing try-catch blocks and logging mechanisms to ensure graceful degradation when individual operations fail.</p>
 
     <p>The ensemble forecasting approach highlighted the importance of combining multiple methodologies rather than relying on a single prediction technique. While Prophet excelled at capturing seasonality and trend components, the linear regression model provided stable long-term directional guidance, and the moving average method contributed momentum-based insights. The weighted combination of these approaches produced more robust forecasts than any single method alone.</p>
-
-    <div class="highlight-box">
-        <h3><span class="emoji">🔧</span> Key Technical Challenges Overcome</h3>
-        <p>Several technical challenges required creative solutions during development. The SSL certificate verification issue on macOS necessitated deep investigation into Python's security model and certificate handling. The matplotlib threading error when creating visualizations in an asynchronous context required switching to the Agg backend to avoid GUI-related complications. Managing FRED API rate limits demanded implementing intelligent caching strategies to minimize redundant requests while ensuring data freshness.</p>
-    </div>
 
     <h2><span class="emoji">🚀</span> Future Enhancements and Extensibility</h2>
 
