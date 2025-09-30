@@ -1,0 +1,294 @@
+================================================================================
+COMMODITY PRICE ANALYSIS REPORT
+Deep Learning Agent - Comprehensive Analysis
+================================================================================
+Generated: 2025-09-30 09:30:32
+================================================================================
+
+# EXECUTIVE SUMMARY
+================================================================================
+
+## Key Findings
+
+### Gold
+- Current Price: $240.37
+- Volatility (CV): 9.33%
+
+### Aluminium
+- Current Price: $2332.62
+- Volatility (CV): 17.44%
+
+### Platinum
+- Current Price: $256.41
+- Volatility (CV): 10.02%
+
+### Natural_Gas
+- Current Price: $3.40
+- 90-Day Change: -12.39%
+- Volatility (CV): 53.34%
+
+### Gasoline
+- Current Price: $3.18
+- 90-Day Change: 3.25%
+- Volatility (CV): 19.67%
+
+### Crude_Oil
+- Current Price: $70.83
+- 90-Day Change: -2.31%
+- Volatility (CV): 26.92%
+
+
+# DATA QUALITY REPORT
+================================================================================
+
+## Gold
+- Records: 68
+- Date Range: 2020-01-01 to 2025-08-01
+- Completeness: 3.3%
+- Latest Price: $264.56 (2025-08-01)
+
+## Aluminium
+- Records: 66
+- Date Range: 2020-01-01 to 2025-06-01
+- Completeness: 3.3%
+- Latest Price: $2525.96 (2025-06-01)
+
+## Platinum
+- Records: 68
+- Date Range: 2020-01-01 to 2025-08-01
+- Completeness: 3.3%
+- Latest Price: $281.09 (2025-08-01)
+
+## Natural_Gas
+- Records: 1432
+- Date Range: 2020-01-02 to 2025-09-22
+- Completeness: 68.5%
+- Latest Price: $2.90 (2025-09-22)
+
+## Gasoline
+- Records: 299
+- Date Range: 2020-01-06 to 2025-09-22
+- Completeness: 14.3%
+- Latest Price: $3.17 (2025-09-22)
+
+## Crude_Oil
+- Records: 1431
+- Date Range: 2020-01-02 to 2025-09-22
+- Completeness: 68.5%
+- Latest Price: $62.99 (2025-09-22)
+
+
+# STATISTICAL ANALYSIS
+================================================================================
+
+## Gold
+- Mean: $240.37
+- Median: $253.62
+- Std Dev: $22.43
+- Range: $196.10 - $264.81
+- Coefficient of Variation: 9.33%
+- Skewness: -0.716
+- Kurtosis: -1.137
+
+## Aluminium
+- Mean: $2332.62
+- Median: $2351.59
+- Std Dev: $406.76
+- Range: $1459.93 - $3498.37
+- Coefficient of Variation: 17.44%
+- Skewness: 0.116
+- Kurtosis: 0.550
+
+## Platinum
+- Mean: $256.41
+- Median: $271.99
+- Std Dev: $25.68
+- Range: $202.80 - $288.24
+- Coefficient of Variation: 10.02%
+- Skewness: -0.782
+- Kurtosis: -1.008
+
+## Natural_Gas
+- Mean: $3.40
+- Median: $2.77
+- Std Dev: $1.81
+- Range: $1.21 - $11.32
+- Coefficient of Variation: 53.34%
+- Skewness: 1.557
+- Kurtosis: 1.942
+
+## Gasoline
+- Mean: $3.18
+- Median: $3.18
+- Std Dev: $0.63
+- Range: $1.77 - $5.01
+- Coefficient of Variation: 19.67%
+- Skewness: -0.049
+- Kurtosis: 0.306
+
+## Crude_Oil
+- Mean: $70.83
+- Median: $72.43
+- Std Dev: $19.07
+- Range: $8.91 - $123.64
+- Coefficient of Variation: 26.92%
+- Skewness: -0.381
+- Kurtosis: 0.663
+
+
+# TREND ANALYSIS
+================================================================================
+
+## Natural_Gas
+- Trend Direction: DOWNWARD
+- Trend Strength (R²): 0.001
+- Current Price: $2.90
+- 30-Day MA: $2.93
+- 90-Day MA: $3.04
+- Momentum:
+  * 1_month: -4.92%
+  * 3_months: -12.39%
+  * 1_year: 29.46%
+
+## Gasoline
+- Trend Direction: DOWNWARD
+- Trend Strength (R²): 0.207
+- Current Price: $3.17
+- 30-Day MA: $3.14
+- 90-Day MA: $3.23
+- Momentum:
+  * 1_month: 3.09%
+  * 3_months: 3.25%
+  * 1_year: 49.67%
+
+## Crude_Oil
+- Trend Direction: DOWNWARD
+- Trend Strength (R²): 0.181
+- Current Price: $62.99
+- 30-Day MA: $63.98
+- 90-Day MA: $66.00
+- Momentum:
+  * 1_month: -3.14%
+  * 3_months: -2.31%
+  * 1_year: -12.71%
+
+
+# PRICE FORECASTS
+================================================================================
+
+## Natural_Gas
+- Method: Ensemble
+- Current Price: $2.90
+- Forecast Horizon: 1917 days
+- Mean Forecast: $6.61
+- Final Forecast: $9.80
+- Expected Change: 237.87%
+
+## Crude_Oil
+- Method: Ensemble
+- Current Price: $62.99
+- Forecast Horizon: 1917 days
+- Mean Forecast: $25.43
+- Final Forecast: $-14.41
+- Expected Change: -122.88%
+
+
+# RISK ASSESSMENT
+================================================================================
+
+## Gold
+### Value at Risk (VaR)
+- Historical VaR (95%): -1.72%
+- Dollar VaR: $4.55
+### Risk-Adjusted Returns
+- Sharpe Ratio: 4.923
+- Interpretation: Excellent risk-adjusted returns
+### Drawdown Analysis
+- Max Drawdown: -5.17%
+- Current Drawdown: -0.09%
+
+## Aluminium
+### Value at Risk (VaR)
+- Historical VaR (95%): -9.36%
+- Dollar VaR: $236.31
+### Risk-Adjusted Returns
+- Sharpe Ratio: 2.019
+- Interpretation: Excellent risk-adjusted returns
+### Drawdown Analysis
+- Max Drawdown: -38.96%
+- Current Drawdown: -27.80%
+
+## Platinum
+### Value at Risk (VaR)
+- Historical VaR (95%): -2.44%
+- Dollar VaR: $6.85
+### Risk-Adjusted Returns
+- Sharpe Ratio: 3.876
+- Interpretation: Excellent risk-adjusted returns
+### Drawdown Analysis
+- Max Drawdown: -7.91%
+- Current Drawdown: -2.48%
+
+## Natural_Gas
+### Value at Risk (VaR)
+- Historical VaR (95%): -9.76%
+- Dollar VaR: $0.28
+### Risk-Adjusted Returns
+- Sharpe Ratio: 0.634
+- Interpretation: Acceptable risk-adjusted returns
+### Drawdown Analysis
+- Max Drawdown: -89.31%
+- Current Drawdown: -74.38%
+
+## Gasoline
+### Value at Risk (VaR)
+- Historical VaR (95%): -2.95%
+- Dollar VaR: $0.09
+### Risk-Adjusted Returns
+- Sharpe Ratio: 0.624
+- Interpretation: Acceptable risk-adjusted returns
+### Drawdown Analysis
+- Max Drawdown: -39.95%
+- Current Drawdown: -36.62%
+
+## Crude_Oil
+### Value at Risk (VaR)
+- Historical VaR (95%): -4.13%
+- Dollar VaR: $2.60
+### Risk-Adjusted Returns
+- Sharpe Ratio: 0.280
+- Interpretation: Acceptable risk-adjusted returns
+### Drawdown Analysis
+- Max Drawdown: -85.92%
+- Current Drawdown: -49.05%
+
+## Portfolio Risk
+- Annual Return: 43.06%
+- Annual Volatility: 34.64%
+- Sharpe Ratio: 1.243
+- Portfolio VaR (95%): -2.12%
+- Diversification: High
+
+
+# RECOMMENDATIONS
+================================================================================
+
+- Natural_Gas: Weak trend. Market may be ranging or transitioning.
+- Gasoline: Weak trend. Market may be ranging or transitioning.
+- Crude_Oil: Weak trend. Market may be ranging or transitioning.
+
+
+# VISUALIZATIONS
+================================================================================
+
+The following charts have been generated:
+- price_history.png
+- returns_distribution.png
+- correlation_matrix.png
+- rolling_volatility.png
+- all_forecasts.png
+- risk_metrics_comparison.png
+
+================================================================================
+END OF REPORT
+================================================================================
