@@ -396,21 +396,6 @@ graph TD
 
     <p>The forecasting capabilities leverage Prophet version 1.1.5 for time series prediction, complemented by scikit-learn version 1.3.2 for linear regression models and statsmodels version 0.14.1 for advanced statistical analysis including seasonal decomposition. Visualization functionality is provided through matplotlib version 3.8.2 for basic plotting, seaborn version 0.13.0 for statistical graphics, and plotly version 5.18.0 for interactive charts.</p>
 
-    <p>A critical implementation challenge involved handling SSL certificate verification on macOS systems. The solution required importing the certifi library and configuring urllib to use the proper certificate bundle. This was accomplished by creating a default SSL context using certifi's certificate store and installing a custom HTTPS handler that respects this context, ensuring secure connections to the FRED API without certificate verification failures.</p>
-
-    <div class="code-block">
-import ssl<br>
-import certifi<br>
-import urllib.request<br>
-<br>
-ssl_context = ssl.create_default_context(cafile=certifi.where())<br>
-urllib.request.install_opener(<br>
-&nbsp;&nbsp;&nbsp;&nbsp;urllib.request.build_opener(<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;urllib.request.HTTPSHandler(context=ssl_context)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;)<br>
-)
-    </div>
-
     <h2><span class="emoji">📊</span> Visualization and Reporting Capabilities</h2>
 
     <p>The Visualizer Node creates six distinct chart types that provide comprehensive visual insights into commodity market dynamics. The price history charts display historical trends with regression lines overlaid, allowing viewers to quickly grasp directional movements and trend strength. Returns distribution histograms reveal the statistical properties of daily price changes, highlighting skewness and kurtosis that inform risk assessment.</p>
